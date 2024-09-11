@@ -1,0 +1,149 @@
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4e1d2;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to bottom, #f7b733, #f4e1d2);
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.hero-section {
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    background-color: #fff7e1;
+    text-align: center;
+}
+
+.background-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Roadmap Section */
+.roadmap-section {
+    padding: 50px;
+    background-color: #ffd47f;
+    text-align: center;
+}
+
+.roadmap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.phase {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 22%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.phase h3 {
+    color: #f7b733;
+}
+
+/* Team Section */
+.team-section {
+    padding: 50px;
+    background-color: #f4e1d2;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Buy Section */
+.buy-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.buy-section ol {
+    margin: 20px auto;
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #f7b733;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    font-weight: bold;
+}
